@@ -81,3 +81,18 @@ body {
   border: none;
   margin-top: 1rem;
 }
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid #fff;
+  transition: background-color .5s;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #58af9b;
+}
+
+.btn-second {
+
+}
