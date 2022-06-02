@@ -94,5 +94,47 @@ body {
 }
 
 .btn-second {
-
+  background-color: white;
+  border: 1px solid #58af58;
+  transition: background-color .5s;
 }
+
+.btn-second:hover {
+  background-color: white;
+  border: 1px solid #58af9b;
+  color: #58af9b;
+}
+
+.first-content {
+  display: flex;
+}
+
+.first-content .second-column {
+  z-index: 11;
+}
+
+.first-column {
+  text-align: center;
+  width: 40%;
+  z-index: 10;
+}
+
+.second-column {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  margin: 1rem 0;
+}
+
+.link-social-media:not(:first-child) {
+  margin-left: 10px;
+}
+
+.link-social-media .item-social-media {
+  transition: background-color .5s;
+}
+
