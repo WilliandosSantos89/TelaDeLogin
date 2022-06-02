@@ -207,6 +207,12 @@ input:-webkit-autofill {
 
 .password {
   color: #34495e;
-  font-size: ;
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.password::first-letter {
+  text-transform: capitalize;
 }
 
